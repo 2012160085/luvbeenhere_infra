@@ -1,4 +1,4 @@
-resource "aws_instance" "bastion" {
+resource "aws_instance" "dev" {
     ami = "ami-0ba5cd124d7a79612"         //ubuntu 18.04 lts 
     availability_zone = "ap-northeast-2a"
     instance_type = "t2.micro"            

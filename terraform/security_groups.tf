@@ -12,7 +12,7 @@ resource "aws_security_group" "allow_all" {
     cidr_blocks      = ["0.0.0.0/0"]  
   }
   egress {
-    description      = "inbound"
+    description      = "outbound"
     from_port        = 0
     to_port          = 65535
     protocol         = "tcp"
